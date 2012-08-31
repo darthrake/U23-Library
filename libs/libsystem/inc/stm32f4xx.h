@@ -63,6 +63,10 @@
   #define STM32F4XX
 #endif
 
+#ifndef ARM_MATH_CM4
+   #define ARM_MATH_CM4
+#endif
+
 /*  Tip: To avoid modifying this file each time you need to switch between these
         devices, you can define the device in your toolchain compiler preprocessor.
   */
